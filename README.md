@@ -35,6 +35,11 @@ World of Warcraft
               `- eye.psd
 </pre>
 
+Commands:
+	/ctg
+	(alias) /stg
+Shows AddOn
+
 Features:
 - Easy interface for setting up raid group for encounter (drag and drop)
 - Spoopy eye included
