@@ -1,0 +1,10 @@
+## Interface: 11200
+## Title: SeeThunGroups
+## Version: 1.1
+## Author: moh
+
+Global.lua
+Font.lua
+Player.lua
+UI.lua
+Main.lua
