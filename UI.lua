@@ -35,7 +35,7 @@ SeeThunGroups.UI.SortBy = function(order)
 		end)
 	end
 	SeeThunGroups.UI.ScrollFrame.Update()
-	UIDropDownMenu_SetSelectedID(SeeThunGroups.main_frame.playerList.dropdown, SeeThunGroups.UI.sortBy)
+	UIDropDownMenu_SetSelectedValue(SeeThunGroups.main_frame.playerList.dropdown, SeeThunGroups.UI.sortBy)
 end
 
 
@@ -596,6 +596,10 @@ SeeThunGroups.UI.ClearPlayers = function()
 	for index = 1, 40, 1 do
 		playerFrame = canvas.player[index]
 		playerFrame:Hide()
+	end
+	for index = 1, 9, 1 do
+		playerList.buttons[index]:EnableMouse(true)
+		playerList.buttons[index]:SetMovable(true)
 	end
 end
 

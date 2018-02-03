@@ -187,7 +187,9 @@ SeeThunGroups.Player.Update = function(wipe)
 		
 	end
 	
+	
 	SeeThunGroups.UI.ScrollFrame.Update()
 	SeeThunGroups.UI.ClearPlayers()
 	SeeThunGroups.UI.PopulatePlayers()
+	SeeThunGroups.UI.SortBy(SeeThunGroups.UI.sortBy)
 end
